@@ -31,7 +31,7 @@ const RecommendationPage = () => {
   const [chat, setChat] = useState([{ from: 'bot', text: 'Hi! What kind of furniture are you looking for today?' }]);
   const [loading, setLoading] = useState(false);
 
-  const API_URL = 'http://127.0.0.1:8000';
+  const API_URL = 'https://piyush.mankiratsingh.com';
 
   const handleSend = async () => {
     if (!query.trim()) return;
