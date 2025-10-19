@@ -1,0 +1,42 @@
+# This file specifies the exact versions of packages for the AI project backend.
+
+# Install these using: pip install -r requirements.txt
+
+# Core web framework
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Data handling
+
+pandas==2.2.2
+
+# Environment variables
+
+python-dotenv==1.0.1
+
+# Pinecone DB
+
+pinecone-client==3.2.2
+
+# LangChain - Core and Integrations (pinned to compatible versions)
+
+langchain==0.2.1
+langchain-core==0.2.3
+langchain-pinecone==0.1.1
+langchain-openai==0.1.7
+langchain-groq==0.1.4
+langchain-huggingface==0.0.3
+
+# Embedding model
+
+sentence-transformers==3.0.1
+
+# PyTorch and CV libraries (for Model_train.py)
+
+torch
+timm
+Pillow
+scikit-learn
+seaborn
+notebook
